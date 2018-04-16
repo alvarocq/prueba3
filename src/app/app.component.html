@@ -1,0 +1,28 @@
+<h3>
+	{{title}}
+</h3>
+<hr>
+<nav>
+	<a [routerLink]="['/pagina-principal']" [routerLinkActive]="['activado']">
+		Home
+	</a>
+	-
+	<a [routerLink]="['/contacto']" [routerLinkActive]="['activado']">
+		Contacto
+	</a>
+	-
+	<a [routerLink]="['/empleado']" [routerLinkActive]="['activado']">
+		Empleado
+	</a>
+	-
+	<a [routerLink]="['/fruta']" [routerLinkActive]="['activado']">
+		Fruta
+	</a>
+	-
+	<a [routerLink]="['/coches']" [routerLinkActive]="['activado']">
+		Coches
+	</a>
+</nav>
+<hr>
+
+<router-outlet></router-outlet>
